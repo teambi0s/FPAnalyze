@@ -4,5 +4,6 @@ then
     exit
 fi
 
+script_path=$(dirname "$0")
 export LD_PRELOAD="./FPAnalyze.so"
 ./$1
